@@ -576,6 +576,10 @@ img{
 
 
  @media screen and (max-width: 768px) {
+
+    .navbar {
+    border: 1px solid #fff;
+  }
     .navbar-brand {
     font-size: 1.5rem;
     margin-left: 20px;
@@ -591,14 +595,14 @@ img{
       font-size: 1rem;
     }
 
-   .h1 h1{
+    .h1 h1{
       margin-top: 70px;
       font-size: 1.3rem;
       text-align: center;
     }
 
-   .header-img img {
-        margin-top: 80px;
+    .header-img img{
+      margin-top: 100px;
     }
 
     .links .button{
@@ -637,10 +641,11 @@ img{
 
     .about h1{
       font-size: 1.5rem;
+      margin-top: 30px;
     }
 
     .about .top-hederText{
-      margin-top: 130px;
+      margin-top: 190px;
     }
 
     .aboutUs h2{
@@ -659,11 +664,12 @@ img{
     }
 
     .solutionsb .top-hederText{
-      margin-top: 130px;
+      margin-top: 120px;
     }
 
     .solutionsb h1{
       font-size: 1.5rem;
+      padding-top: 90px;
     }
 
     .solutionsb p{
@@ -686,6 +692,7 @@ img{
 
     .formContact h1{
       font-size: 1.5rem;
+      padding-top: 90px;
     }
 
     .getIn{
@@ -696,47 +703,16 @@ img{
     }
 
     .header-img{
-      margin-top: -30px;
+      margin-top: -70px;
     }
 
     .contactForm h2{
-      margin-top: 30px;
+      margin-top: 100px;
     }
 
 
 
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
