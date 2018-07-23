@@ -596,8 +596,8 @@ img{
       text-align: center;
     }
 
-    .header-img{
-      margin-top: 40px;
+   .header-img img {
+        margin-top: 80px;
     }
 
     .links .button{
