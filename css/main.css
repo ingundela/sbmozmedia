@@ -1,0 +1,745 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Muli:300,400|Nunito+Sans:400,600,700|Nunito:400,600|Paytone+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
+
+
+html,
+body{
+    font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #656b6F;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+p,li{
+    font-size: 1rem;
+    display: block;
+    line-height: 1.7em;  
+    font-weight: 300;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+/*--- Nav memu ---*/
+.navbar {
+  padding: 10px 0;
+  z-index: 999;
+}
+
+.navbar-brand {
+  font-family: 'Paytone One', sans-serif;
+  font-weight: 400;
+  color: #fff !important;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-toggler span {
+    color: #85CB33;
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navbar-toggler:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.navbar.compressed {
+  padding: 0;
+  background-color: #000033;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.navbar-brand .sb {
+  color: #85CB33;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #85CB33;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  position: relative;
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Muli', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  margin: 10px;
+  border-bottom: 1px solid transparent;
+  letter-spacing: 2px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.navbar.compressed.navbar-light .navbar-nav .nav-link {
+    font-size: 0.9rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #85CB33;
+}
+
+.nav-item .contactos {
+    font-family: 'Nunito Sans', sans-serif !important;
+    border-radius: 20px;
+    color: #fff!important;
+    background-color: #85CB33;
+    font-weight: 700 !important;
+}
+
+.nav-item i{
+  margin:0 5px;
+  color: #fff;
+  font-weight: 700 !important;
+}
+
+.nav-item .contactos:hover{
+  background-color: #77b72d;
+}
+
+/*--header--*/
+
+.header-banner{
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.imgHeader{
+  padding: 0 !important;
+}
+
+.top-hederText li{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.top-hederText i{
+  margin-right: 10px;
+  color: #77b72d;
+  font-weight: 600;
+}
+
+.h1 h1{
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 10px 0;
+  font-style: normal;
+  color: #fff;
+}
+
+.links{
+  margin-top: 30px;
+}
+
+.links .button{
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.black:hover{
+  background-color: #77b72d;
+}
+
+.green:hover{
+  background-color: #fff;
+}
+
+.button.green{
+  border: 1px solid #85CB33;
+  color: #85CB33;
+}
+
+
+.header-img img{
+  margin-bottom: 20px;
+}
+
+/*--webpackages--*/
+
+.pacotesWeb{
+  padding-top: 120px;
+}
+
+.webpack{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    padding: 70px 0;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.webpack h2{
+  color: #fff !important;
+}
+
+.webpack h3{
+  font-size: 1.3rem;
+  max-width: 60rem;
+  font-weight: 400;
+  margin: 0 auto;
+  border-bottom: 1px solid #a6a6a6;
+  padding-bottom: 5px;
+}
+
+.webpack p{
+  padding: 20px 0 30px 0;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.btnWebpack{
+  font-family: 'Nunito Sans', sans-serif !important;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: #fff!important;
+  background-color: #85CB33;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.btnWebpack:hover{
+   text-decoration: none;
+   background-color: #77b72d;
+}
+
+/*--workTogether--*/
+
+.workTogether {
+  padding: 100px 0;
+}
+
+.titleTop h2{
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 40px;
+  font-weight: 500;
+  color: #444b54;
+  font-size: 28px;
+}
+
+.service-icon{
+  padding-right: 10px;
+  font-weight: 300;
+}
+
+.sub-serv{
+  border-bottom: 1px solid #f2f2f2;
+  text-align: left;
+  color: #85CB33;
+  font-family: 'Raleway', sans-serif;
+}
+
+.sub-serv h3{
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.box h4{
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  font-weight: 600;
+  color: #404040;
+}
+
+.box p{
+  text-align: justify;
+}
+
+.firstOne{
+  margin-bottom: 30px;
+}
+
+/*--footer--*/
+
+.footer{
+  padding: 70px 0;
+  background-color: #000033;
+  color: #fff;
+}
+
+.footer h5{
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.footer i{
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.footer ul{
+  margin-top: 40px;
+}
+.footer li{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/*-------------------ABOUT HTML-------------------*/
+
+.about.header-banner{
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);  height: 100vh;
+  z-index: 1;
+  display: flex;
+  height: 550px;
+  align-items: center;
+}
+
+.about .top-hederText{
+  margin-top: 100px;
+}
+.about h1{
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 10px 0;
+  font-style: normal;
+  color: #fff;
+}
+
+.aboutUs h2{
+ font-size: 2rem;
+}
+
+.about p{
+  color: #fff;
+  font-size: 1.2rem;
+
+}
+
+.aboutUs{
+  padding: 100px 0;
+}
+
+.aboutUs p{
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+/*----mvv----*/
+.mvv{
+  padding-bottom: 60px;
+}
+
+.boxM{
+  background-color: #f1f1f1;
+  max-width: 60rem;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 7px solid #85CB33;
+}
+
+.boxM h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+/*------------------------SOLUTIONS INDEX----------------------*/
+
+.solutionsb.header-banner{
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  display: flex;
+  align-items: center;
+  height: 550px;
+}
+
+.solutionsb .top-hederText{
+  margin-top: 50px;
+}
+
+.solutionsb h1{
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 10px 0;
+  font-style: normal;
+  color: #fff;
+}
+
+.solutionsb p{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.solutionsmp{
+  padding-top: 100px;
+}
+.solutionsmp h2{
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+
+.solbox{
+  margin-top: 100px;
+}
+
+.websol{
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #000033;
+  color: #fff;
+}
+
+.money{
+   font-family: 'Raleway', sans-serif;
+   font-size: 2rem;
+   font-weight: 600;
+   padding: 10px;
+}
+
+.websoll{
+  background-color: #85CB33;
+  color: #fff;
+}
+
+
+/*---------------------------CONTACT FORM--------------------------*/
+
+.formContact.header-banner{
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  display: flex;
+  align-items: center;
+  height: 550px;
+}
+
+
+.formContact .top-hederText{
+  margin-top: 130px;
+}
+
+.formContact h1{
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 10px 0;
+  font-style: normal;
+  color: #fff;
+}
+
+.getIn{
+  margin-bottom: 40px;
+}
+.formContact p{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.contactForm{
+  padding: 80px 0;
+}
+
+.btn-primary{
+  margin-top: 30px;
+  background-color: #85CB33;
+  border-color: #85CB33;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary:hover{
+  background-color: #77b72d;
+}
+
+.control-label{
+  font-weight: 600;
+}
+
+.sbabout {
+  font-weight: 400;
+  font-size: 2.3rem;
+  color: #85CB33;
+  font-family: 'Paytone One', sans-serif;
+}
+
+/*-------------------------------PORTFOLIO HTML--------------------------------*/
+
+.portfolio.header-banner{
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  z-index: 1;
+  display: flex;
+  height: 550px;
+  align-items: center;
+}
+
+.portfolio .top-hederText{
+  margin-top: 80px;
+}
+.portfolio h1{
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 10px 0;
+  font-style: normal;
+  color: #fff;
+}
+
+.portfolio p{
+  color: #fff;
+  font-size: 1.2rem;
+
+}
+
+.port{
+  padding-top: 100px;
+}
+
+.portfolio h2{
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.workrow{
+  padding: 30px 0 5px 0;
+}
+
+.port-img{
+  box-shadow: 7px 10px 8px 10px #888888;
+  width: 541px;
+  height: 350px;
+  overflow: hidden;
+}
+  
+
+.port .container-fluid{
+  padding: 0;
+}
+
+.last{
+  margin-bottom: 50px;
+}
+
+.imagem{
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease;
+  cursor: pointer;
+  
+}
+
+.imagem:hover{
+  transform: scale(1.2);
+}
+
+/*------------------------MEDIA QUERIES-------------------------*/
+
+
+ @media screen and (max-width: 768px) {
+    .navbar-brand {
+    font-size: 1.5rem;
+    margin-left: 20px;
+  }
+
+  .nav-item {
+      background: #000033;
+      text-align: center;
+      border: 1px solid #595959;
+    }
+
+    .top-hederText li{
+      font-size: 1rem;
+    }
+
+    .h1 h1{
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .header-img{
+      margin-top: 40px;
+    }
+
+    .links .button{
+      font-size: 0.7rem;
+      text-align: center;
+  }
+
+  .webpack h3{
+      font-size: 1rem;
+      padding: 0 10px;
+
+    }
+
+    p,li{
+      font-size: 0.8rem;
+
+  }
+
+  .btnWebpack{
+    letter-spacing: 0.7px;
+  }
+
+  .titleTop h2{
+      font-size: 25px;
+    }
+
+    .sub-serv h3{
+      font-size: 1.2rem;
+    }
+
+    .box h4{
+      font-size: 1rem;
+    }
+
+    /*---About---*/
+
+    .about h1{
+      font-size: 1.5rem;
+    }
+
+    .about .top-hederText{
+      margin-top: 130px;
+    }
+
+    .aboutUs h2{
+     font-size: 25px;
+
+    }
+
+    .about p{
+      color: #fff;
+      font-size: 1rem;
+
+    }
+
+    .boxM h3{
+      font-size: 1.2rem;
+    }
+
+    .solutionsb .top-hederText{
+      margin-top: 130px;
+    }
+
+    .solutionsb h1{
+      font-size: 1.5rem;
+    }
+
+    .solutionsb p{
+      font-size: 1rem;
+    }
+
+    /*-----Portfolio------*/
+    .portfolio h1{
+      font-size: 1.5rem;
+    }
+
+    .portfolio p{
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .formContact .top-hederText{
+      margin-top: 200px;
+    }
+
+    .formContact h1{
+      font-size: 1.5rem;
+    }
+
+    .getIn{
+      margin-bottom: 40px;
+    }
+    .formContact p{
+      font-size: 1rem;
+    }
+
+    .header-img{
+      margin-top: -30px;
+    }
+
+    .contactForm h2{
+      margin-top: 30px;
+    }
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
