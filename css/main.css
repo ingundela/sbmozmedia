@@ -578,7 +578,7 @@ img{
  @media screen and (max-width: 768px) {
 
     .navbar {
-    border: 1px solid #fff;
+    border-bottom: 1px solid #85CB33;
   }
     .navbar-brand {
     font-size: 1.5rem;
@@ -588,7 +588,6 @@ img{
   .nav-item {
       background: #000033;
       text-align: center;
-      border: 1px solid #595959;
     }
 
     .top-hederText li{
@@ -664,12 +663,11 @@ img{
     }
 
     .solutionsb .top-hederText{
-      margin-top: 120px;
+      margin-top: 150px;
     }
 
     .solutionsb h1{
       font-size: 1.5rem;
-      padding-top: 90px;
     }
 
     .solutionsb p{
@@ -710,9 +708,74 @@ img{
       margin-top: 100px;
     }
 
+ }
 
+ @media screen and (max-width: 480px) {
+
+
+    .navbar {
+    padding: 5px 0;
+  }
+
+   .navbar-brand {
+      font-size: 1.3rem;
+      margin-left: 20px;
+    }
+
+    .h1 h1{
+      margin-top: 120px;
+      font-size: 1rem;
+      text-align: center;
+    }
+    
+    p, li{
+        font-size: 0.8rem;
+    }
+
+     .links .button{
+        font-size: 0.5rem;
+    }
+
+    .titleTop h2{
+      font-size: 1.3rem;
+    }
+
+    .btnWebpack{
+      font-size: 0.8rem;
+    }
 
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
