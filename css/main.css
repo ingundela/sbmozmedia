@@ -765,38 +765,55 @@ b{
 
  }
 
- @media screen and (max-width: 400px) {
-
-
-    .navbar {
-    padding: 5px 0;
-  }
-
-   .navbar-brand {
-      font-size: 1.3rem;
-      margin-left: 20px;
-    }
-
-    .h1 h1{
-      margin-top: 120px;
-      font-size: 1rem;
-      text-align: center;
-    }
+@media screen and (max-width: 400px) {
     
-    p, li{
-        font-size: 0.8rem;
-    }
+      .h1 h1{
+        margin-top: -2px;
+        font-size: 1rem;
+      }
 
-     .links .button{
-        font-size: 0.5rem;
-    }
+      .links .button{
+        font-size: 0.7rem;
 
-    .titleTop h2{
-      font-size: 1.3rem;
-    }
+     }
 
-    .btnWebpack{
+     .btnWebpack{
+      font-size: 0.5rem;
+     }
+
+     p,li{
       font-size: 0.8rem;
-    }
+     }
 
- }
+     h3{
+      font-size: 1rem !important;
+     }
+
+     h4{
+      font-size: 0.9rem !important;
+     }
+
+     .footer h3{
+        font-size: 1.1rem;
+      }
+
+      .footer a{
+        font-size: 0.8rem;
+      }
+
+      .footerLast p {
+        font-size: 0.8rem;
+      }
+
+      .social li{
+        font-size: 1.3rem;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin:0 10px;
+      }
+
+   }
+
+
+
