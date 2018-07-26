@@ -8,7 +8,7 @@ body{
     font-family: 'Muli', sans-serif;
     font-size: 1rem;
     line-height: 1.6;
-    color: #656b6F;
+    color: #0b333c;
     margin: 0 auto;
     position: relative;
     overflow-x: hidden;
@@ -28,6 +28,10 @@ img{
     max-width: 100%;
     height: auto;
     text-align: center;
+}
+
+b{
+  font-weight: 600;
 }
 
 /*--- Nav memu ---*/
@@ -58,7 +62,7 @@ img{
 
 .navbar.compressed {
   padding: 0;
-  background-color: #000033;
+  background-color: #002f3d;
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   -ms-transition: all .5s ease;
@@ -66,7 +70,7 @@ img{
 }
 
 .navbar-brand .sb {
-  color: #85CB33;
+  color: #85CB33; 
 
 }
 
@@ -120,7 +124,7 @@ img{
 
 /*--header--*/
 
-.header-banner{
+.headerBanner{
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);  width: 100%;
   height: 100vh;
   z-index: 1;
@@ -258,8 +262,8 @@ img{
   font-family: 'Raleway', sans-serif;
   margin-bottom: 40px;
   font-weight: 500;
-  color: #444b54;
-  font-size: 28px;
+  color: #0b333c;
+  font-size: 2rem;
 }
 
 .service-icon{
@@ -285,7 +289,7 @@ img{
   font-size: 1.2rem;
   padding: 10px 0;
   font-weight: 600;
-  color: #404040;
+  color: #0b333c;
 }
 
 .box p{
@@ -299,50 +303,141 @@ img{
 /*--footer--*/
 
 .footer{
-  padding: 70px 0;
-  background-color: #000033;
+  padding: 55px 0;
+  background-color: #85CB33;
+}
+
+.footer h2{
+  color: #002f3d;
+}
+
+.footer h3{
+  color: #fff;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+
+.footer a{
+  color: #fff;
+  background-color:#002f3d;
+  margin-top: 30px; 
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.footer a:hover{
+  background-color: #194350;
+}
+
+/*---footer last----*/
+
+.footerLast{
+  padding: 55px 0;
+  background-color: #002f3d;
+}
+
+.footerLast h2, .footerLast p{
   color: #fff;
 }
 
-.footer h5{
+.footerLast p{
+  font-size: 1.2rem;
   font-weight: 600;
-  font-size: 1rem;
 }
 
-.footer i{
-  font-size: 2rem;
-  font-weight: 400;
+
+.social li{
+  display: inline-block;
+  margin: 0 30px;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #85CB33;
+  position: relative;
+  transition: .5s ease-in-out;
+  z-index: 1;
+}
+
+.social li:before{
+  content: '';
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #002f3d;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: .5s ease-in-out;
+  z-index: -1;
+}
+
+.social li:hover:before{
+   transform: scale(1);
+}
+
+.social li:hover{
+  color: #85CB33;
+}
+
+.social {
+  margin-top: 50px;
+}
+
+.sbmozmedialast{
+  margin-top: 80px;
   color: #fff;
 }
 
-.footer ul{
-  margin-top: 40px;
-}
-.footer li{
+.contactt li{
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 10px;
+  color: #fff;
+  font-weight: 600;
 }
+
+.contactt i{
+  margin-right: 3px;
+}
+
+
+
 
 /*-------------------ABOUT HTML-------------------*/
 
-.about.header-banner{
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);  height: 100vh;
+.header-banner{
+  background-image: url('../img/topheader.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
   z-index: 1;
   display: flex;
-  height: 550px;
+  height: 500px;
   align-items: center;
 }
 
-.about .top-hederText{
-  margin-top: 100px;
-}
-.about h1{
-  font-size: 2rem;
-  letter-spacing: 1px;
-  font-weight: 600;
-  padding: 10px 0;
-  font-style: normal;
+.topOther h1{
   color: #fff;
+  max-width: 50rem;
+  margin: 0 auto;
+  font-size: 3rem;
+  font-weight: 300;
+  display: block;
+}
+
+.topOther span{
+  font-weight: 900;
+  color: #85CB33;
 }
 
 .aboutUs h2{
@@ -356,11 +451,11 @@ img{
 }
 
 .aboutUs{
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .aboutUs p{
-  max-width: 60rem;
+  max-width: 50rem;
   margin: 0 auto;
 }
 
@@ -371,7 +466,7 @@ img{
 
 .boxM{
   background-color: #f1f1f1;
-  max-width: 60rem;
+  max-width: 50rem;
   margin: 10px auto;
   padding: 10px;
   border-radius: 5px;
@@ -387,42 +482,18 @@ img{
 
 /*------------------------SOLUTIONS INDEX----------------------*/
 
-.solutionsb.header-banner{
-  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-  display: flex;
-  align-items: center;
-  height: 550px;
-}
-
-.solutionsb .top-hederText{
-  margin-top: 50px;
-}
-
-.solutionsb h1{
-  font-size: 2rem;
-  letter-spacing: 1px;
-  font-weight: 600;
-  padding: 10px 0;
-  font-style: normal;
-  color: #fff;
-}
-
-.solutionsb p{
-  color: #fff;
-  font-size: 1.2rem;
-}
-
 .solutionsmp{
-  padding-top: 100px;
+  padding: 60px 0;
 }
+
 .solutionsmp h2{
-  max-width: 60rem;
+  max-width: 50rem;
   margin: 0 auto;
 }
 
 
 .solbox{
-  margin-top: 100px;
+  margin-top: 35px;
 }
 
 .websol{
@@ -447,37 +518,12 @@ img{
 
 /*---------------------------CONTACT FORM--------------------------*/
 
-.formContact.header-banner{
-  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-  display: flex;
-  align-items: center;
-  height: 550px;
-}
-
-
-.formContact .top-hederText{
-  margin-top: 130px;
-}
-
-.formContact h1{
-  font-size: 2rem;
-  letter-spacing: 1px;
-  font-weight: 600;
-  padding: 10px 0;
-  font-style: normal;
-  color: #fff;
-}
-
 .getIn{
   margin-bottom: 40px;
 }
-.formContact p{
-  color: #fff;
-  font-size: 1.2rem;
-}
 
 .contactForm{
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .btn-primary{
@@ -505,39 +551,17 @@ img{
 
 /*-------------------------------PORTFOLIO HTML--------------------------------*/
 
-.portfolio.header-banner{
-  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-  z-index: 1;
-  display: flex;
-  height: 550px;
-  align-items: center;
-}
-
-.portfolio .top-hederText{
-  margin-top: 80px;
-}
-.portfolio h1{
-  font-size: 2rem;
-  letter-spacing: 1px;
-  font-weight: 600;
-  padding: 10px 0;
-  font-style: normal;
-  color: #fff;
-}
-
-.portfolio p{
-  color: #fff;
-  font-size: 1.2rem;
-
-}
-
 .port{
-  padding-top: 100px;
+  padding: 60px 0;
 }
 
-.portfolio h2{
-  max-width: 60rem;
+.port h2{
+  max-width: 50rem;
   margin: 0 auto;
+}
+
+.port .row{
+  margin-top: 30px;
 }
 
 .workrow{
@@ -551,11 +575,6 @@ img{
   overflow: hidden;
 }
   
-
-.port .container-fluid{
-  padding: 0;
-}
-
 .last{
   margin-bottom: 50px;
 }
@@ -572,59 +591,94 @@ img{
   transform: scale(1.2);
 }
 
+/*-----------------------BLOG--------------------------------*/
+
+.blog.header-banner{
+  height: 100vh;
+}
+
+.blog h1{
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 300;
+
+}
 /*------------------------MEDIA QUERIES-------------------------*/
 
 
  @media screen and (max-width: 768px) {
 
     .navbar {
-    border-bottom: 1px solid #85CB33;
-  }
+      border-bottom: 1px solid #85CB33;
+      padding: 0px;
+    }
     .navbar-brand {
-    font-size: 1.5rem;
-    margin-left: 20px;
-  }
-
-  .nav-item {
+      font-size: 1.3rem;
+      margin-left: 20px;
+      padding-bottom: 0rem;
+   }
+    
+    .navbar .container{
+      text-align: center;
+    }
+    .nav-item {
       background: #000033;
       text-align: center;
     }
 
-    .top-hederText li{
-      font-size: 1rem;
+    .imgHeader{
+      display: none;
     }
 
-    .h1 h1{
-      margin-top: 70px;
-      font-size: 1.3rem;
+    .top-hederText li{
+      font-size: 1rem;
+      margin: 20px 0;
       text-align: center;
     }
 
-    .header-img img{
-      margin-top: 100px;
+    .h1 h1{
+      margin-top: -5px;
+      font-size: 2rem;
+      text-align: center;
     }
 
     .links .button{
       font-size: 0.7rem;
+      display: block;
+      margin-right: 40px;
       text-align: center;
+      margin: 20px auto;
+
   }
 
-  .webpack h3{
-      font-size: 1rem;
-      padding: 0 10px;
+   .pacotesWeb{
+    padding: 35px 0;
+   }
+
+    .webpack h3{
+        font-size: 1rem;
+        padding: 0 10px;
 
     }
 
-    p,li{
-      font-size: 1rem;
+    .workTogether{
+      padding: 30px;
+    }
 
-  }
+    .firstOne{
+      margin-bottom: 0px;
+    }
 
-  .btnWebpack{
-    letter-spacing: 0.7px;
-  }
 
-  .titleTop h2{
+    .workTogether .box{
+      margin-bottom: 35px;
+    }
+
+    .workTogether h3, .workTogether h4, .workTogether p{
+      text-align: center;
+    }
+
+    .titleTop h2{
       font-size: 25px;
     }
 
@@ -636,68 +690,69 @@ img{
       font-size: 1rem;
     }
 
-    /*---About---*/
+    /*--footer---*/
 
-    .about h1{
+    .footer, .footerLast{
+      padding: 30px 0;
+    }
+
+    .footer h3{
+      font-size: 1.3rem;
+    }
+
+    .footer a{
+      font-size: 0.8rem;
+    }
+
+    .social li{
       font-size: 1.5rem;
-      margin-top: 30px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      margin:0 10px;
     }
 
-    .about .top-hederText{
-      margin-top: 190px;
+    .sbmozmedialast li{
+      margin-bottom: 10px;
     }
 
-    .aboutUs h2{
-     font-size: 25px;
-
+    /*---About---*/
+    
+    .header-banner{
+      height: 350px;
     }
 
-    .about p{
-      color: #fff;
-      font-size: 1rem;
+    .aboutUs{
+      padding: 40px 0;
+    }
 
+   .topOther h1{
+      font-size: 1.5rem;
+    }
+
+    .titleTop h2{
+      font-size: 1.3rem;
     }
 
     .boxM h3{
       font-size: 1.2rem;
     }
-
-    .solutionsb .top-hederText{
-      margin-top: 150px;
+    
+    .solutionsmp{
+      padding: 60px 0;
     }
 
-    .solutionsb h1{
+    .websol{
+      font-size: 1.3rem;
+    }
+
+    .money{
       font-size: 1.5rem;
     }
-
-    .solutionsb p{
-      font-size: 1rem;
-    }
-
+        
     /*-----Portfolio------*/
-    .portfolio h1{
-      font-size: 1.5rem;
-    }
-
-    .portfolio p{
-      font-size: 1rem;
-      text-align: center;
-    }
-
-    .formContact .top-hederText{
-      margin-top: 200px;
-    }
-
-    .formContact h1{
-      font-size: 1.5rem;
-      padding-top: 90px;
-    }
-
-    .getIn{
-      margin-bottom: 40px;
-    }
-    .formContact p{
-      font-size: 1rem;
+    .port-img{
+      display: block;
     }
 
     .header-img{
@@ -705,7 +760,7 @@ img{
     }
 
     .contactForm h2{
-      margin-top: 100px;
+      margin-top: 5px;
     }
 
  }
@@ -745,41 +800,3 @@ img{
     }
 
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
