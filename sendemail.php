@@ -86,7 +86,7 @@
                   <a class="nav-link" href="portfolio.html">Portfólio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">blog</a>
+                  <a class="nav-link" href="blog.html">blog</a>
                 </li> 
                 <li class="nav-item active">
                   <a class="nav-link contactos" href="sendemail.php"><i class="fal fa-envelope"></i>Get in Touch</a>
@@ -96,21 +96,15 @@
           </div>
       </nav>
 
-      <!--header-->
-      <section class="formContact header-banner">
+       <!--header-->
+      <section class="about header-banner">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <div class="top-hederText">
-                <div class="h1">
-                  <h1>Share your Project Idea with Us and we'll do our best to make it happen!</h1>
-                  <p>We work as trusted advisors to help our clients leverage the internet to improve processes, increase leads, make more sales, and grow their business.</p>
+            <div class="col-md-12">
+              <div class="topOther text-center">
+                <div>
+                  <h1>Share your <span>Project idea</span> and <span>Let us Do</span> our Best to <span>Make it happen</span>!</h1>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-6 imgHeader">
-              <div class="header-img">
-                <img src="img/contact-form-header.png" alt="About Header image">
               </div>
             </div>
           </div>
@@ -121,7 +115,7 @@
       	<div class="container titleTop">
     			<div class="row justify-content-center">
     				<div class="col-md-6 col-md-offset-3" align="center">
-    					<h2>Get In Touch With The Team</h2>
+    					<h2>Let's work together!</h2>
 
     	                <?php if ($msg != "") echo "$msg<br><br>"; ?>
 
@@ -137,34 +131,52 @@
     			</div>
     		</div>
       </section>
-	
-
 	<!--footer-->
-      <section class="footer">
+      <section class="footer text-center">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 text-center">
-              <i class="fal fa-envelope"></i>
-              <h5>info@sbmozmedia.com</h5>
-            </div>
-            <div class="col-md-6 text-center">
-              <i class="fab fa-whatsapp"></i>
-              <h5>+258 84 321 2622</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <ul class="list-unstyled">
-                <a href="#"><li><i class="fab fa-twitter"></i></li></a>
-                <a href="#"><li><i class="fab fa-facebook-f"></i></li></a>
-                <a href="#"><li><i class="fab fa-linkedin-in"></i></li></a>
-                <a href="#"><li><i class="fab fa-instagram"></i></li></a>
-              </ul>
-              <p>&copy; sbmozmedia.com 2018</p>
+            <div class="col-12 titleTop">
+              <h2>Let's work Together!</h2>
+              <h3>We provide complete solutions to our clients everywhere in the world.</h3>
+              <a href="sendemail.php" class="btn">Request a meeting</a>
             </div>
           </div>
         </div>
       </section>
+
+      <!--footer last-->
+      <section class="footerLast text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 titleTop">
+              <h2>We are Social</h2>
+              <p>Be the first to know what happens at SBmozmedia. Follow us on social networks!</p>
+              <ul class="list-unstyled social">
+                <a href="#"><li><i class="fab fa-linkedin-in"></i></li></a>
+                 <a href="#"><li><i class="fab fa-instagram"></i></li></a>
+                 <a href="#"><li><i class="fab fa-facebook-f"></i></li></a>
+                 <a href="#"><li><i class="fab fa-twitter"></i></li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="row sbmozmedialast">
+            <div class="col-md-6">
+              <ul class="list-unstyled contactt">
+                <li>&copy; sbmozmedia.com 2018 | Digital Agency</li>
+               
+              </ul>
+             
+            </div>
+            <div class="col-md-6">
+              <ul class="list-unstyled contactt">
+                <li><i class="fal fa-envelope"></i> info@sbmozmedia.com</li>
+                <li><i class="fal fa-phone"></i> +258 84321 2622</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
        <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -178,9 +190,3 @@
     </script> 
 </body>
 </html>
-
-
-
-
-
-
